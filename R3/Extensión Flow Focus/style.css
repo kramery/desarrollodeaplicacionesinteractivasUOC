@@ -1,0 +1,49 @@
+body {
+  width: 310px;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+#estado {
+  margin: 0 0 8px;
+  padding: 4px;
+  background: #eeeeee;
+  font-weight: bold;
+}
+
+#fila-duracion {
+  margin-bottom: 8px;
+}
+
+#tiempo {
+  margin-bottom: 8px;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+#lienzo canvas {
+  display: block;
+  margin: 0 auto 10px;
+  border: 1px solid #dddddd;
+}
+
+button {
+  width: 120px;
+  margin: 0 4px;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#sesiones {
+  margin: 10px 0 0;
+  color: #555555;
+}
